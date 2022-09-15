@@ -1,4 +1,13 @@
-
+.text01{
+  font-size: 25px;
+  font-family: 'arial';
+}
+.table{
+  border: 3px solid #ebebeb;
+  padding: 1em;
+  margin: 2;
+  
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +17,19 @@
 }
 html{
     scroll-behavior: smooth;
+}
+.carai {
+    display: inline-block;
+  position: relative;
+  
+}
+.carai p {
+  position: absolute;
+  top: 145px;
+  right: 20px;
+  font-size: 40px;
+  color: white;
+  
 }
 
 /* Barra de rolagem */
@@ -241,7 +263,7 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #373f27;
+    background: #000000;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
