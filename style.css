@@ -1,3 +1,20 @@
+
+.texta{
+ font-size: 25px;
+  font-family: 'arial';
+   float: left;
+  padding: 0 95px;
+}
+.images{
+  padding: 0 100px;
+}
+.icoo{
+   float:right;
+  height: 20px;
+    width: 20px;
+  padding: 0 1px;
+
+}
 .card93{
    border: 5px ;
    width: 100%;
@@ -13,20 +30,9 @@ legal {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   height: 200px;
-  padding: 50px;
+  padding: 20px;
   position: fixed;
   width: 200px;
-}
-.quadrado-1 {
-  background-color: blueviolet;
-  
-}
-
-.quadrado-2 {
-  background-color: lightcoral;
-  left: 50px;
-  top: 100px;
-  z-index: 5;
 }
 
 .text01{
@@ -80,7 +86,7 @@ html{
     background: #555;
 }
 
-/* all similar content styling codes */
+
 section{
     padding: 100px 0;
 }
@@ -131,7 +137,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* Estilo de barra de navegação */
+/* barra de navegação */
 .navbar{
     position: fixed;
     width: 100%;
@@ -180,7 +186,7 @@ section .title::after{
     color: #fff;
 }
 
-/* Estilo de menu */
+/*  menu */
 .menu-btn{
     color: #ffffff;
     font-size: 23px;
@@ -216,7 +222,7 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* home */
 .home{
     display: flex;
     background: url(https://w.wallhaven.cc/full/rd/wallhaven-rdwjj7.jpg) no-repeat center;
@@ -303,7 +309,7 @@ section .title::after{
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #373f27;
+    border: 2px solid #ffffff;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
@@ -311,10 +317,10 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* services */
 .services, .teams{
     color:#fff;
-    background: #2e3a48;
+    background: #000000;
 }
 .services .title::before,
 .teams .title::before{
@@ -322,7 +328,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #2e3a48;
+    background: #ffffff;
    
 }
 .services .serv-content .card{
@@ -347,7 +353,6 @@ section .title::after{
     font-weight: 500;
 }
 
-/* skills section styling */
 
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -404,7 +409,7 @@ section .title::after{
     background: #ffffff;
 }
 
-/* contact section styling */
+
 
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -499,23 +504,40 @@ section .title::after{
   color: #ffffff;
   background: none;
 }
-/* footer section styling */
+/* footer */
+.f{
+    height: 45px;
+    width: 42px;
+    float:left;
+  padding: 0 65px;
+   font-family: 'arial';
+   
+}
+.foo{
+   color: #000000;
+   text-align: left;
+  font-size: 18px;
+  font-family: 'arial';
+  padding: 5px 65px;
+  
+}
 footer{
-    background: #000000;
-    padding: 15px 23px;
-    color: #fff;
+    background: #f7f7f7;
+    padding: 29px 23px;
+    color: #000000;
     text-align: center;
 }
 footer span a{
     color: #000000;
     text-decoration: none;
+  font-size: 25px;
+  font-family: 'arial';
+   float: left;
 }
 footer span a:hover{
     text-decoration: underline;
 }
 
-
-/* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
